@@ -11,19 +11,19 @@ GFPGAN aims at developing a Practical Algorithm for Real-world Face Restoration.
 # Install basicsr 
 # We use BasicSR for both training and inference
 pip install basicsr
-## An open-source image and video restoration toolbox
+# An open-source image and video restoration toolbox
 # https://github.com/XPixelGroup/BasicSR 
 
 # Install facexlib 
 # We use face detection and face restoration helper in the facexlib package
 pip install facexlib
-## A collection that provides useful face-relation functions
+# A collection that provides useful face-relation functions
 # https://github.com/xinntao/facexlib 
 
 # If you want to enhance the background (non-face) regions with Real-ESRGAN,
 # you also need to install the realesrgan package
 pip install realesrgan
-## A practical algorithm for general image restoration
+# A practical algorithm for general image restoration
 # https://github.com/xinntao/Real-ESRGAN 
 
 pip install -r requirements.txt
